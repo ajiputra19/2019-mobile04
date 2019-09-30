@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void handleSubmit(View view) {
+
+        Intent intent = new Intent(this, BundleActivity.class);
+        startActivity(intent);
+    }
 }
