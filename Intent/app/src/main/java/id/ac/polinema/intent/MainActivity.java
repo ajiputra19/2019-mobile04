@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, BundleActivity.class);
         startActivity(intent);
     }
+
+    public void handlePercelable(View view) {
+        Intent intent = new Intent(this, ParcelableActivity.class);
+        startActivity(intent);
+    }
 }
